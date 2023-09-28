@@ -1,0 +1,3 @@
+Follow the instructions at https://flask.palletsprojects.com/en/2.3.x/installation/ to download Flask. Once it is installed, run the command "python3 app.py" to activate a server. There will be a list of addresses in the command line. Use the one with your public IP address when you send data to this application from another device.
+
+This application stores data in JSON files and makes a new one when it receives a new UserID. Only send the string "UserID" to this if you want a new file to be created.
